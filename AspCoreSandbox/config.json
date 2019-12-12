@@ -1,0 +1,16 @@
+{
+  "connectionStrings": {
+    "StoreConnectionString": "server=MYS-RADEKK;Database=StoreDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": "njiocww09&Y9hih%#W%&F(G)*&H*07hyuggt685",
+    "Issuer": "localhost",
+    "Audience": "users"
+  }
+}

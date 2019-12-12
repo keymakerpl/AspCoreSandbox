@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AspCoreSandbox.ViewModels
+{
+    public class OrderItemViewModel
+    {
+        public int Id { get; set; }
+
+        public int ProductId { get; set; }
+
+        [Required]
+        public int Quantity { get; set; }
+        
+        [Required]
+        public decimal UnitPrice { get; set; }
+    }
+}

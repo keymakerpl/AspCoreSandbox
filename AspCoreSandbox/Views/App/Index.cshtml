@@ -1,0 +1,67 @@
+﻿@* @ małpa oznacza, że to strona Razor *@
+
+@{
+    ViewBag.Title = "Home Page"; // VewBag trzyma dynamicy do poźniejszego użycia w html, razor się tym zajmie
+}
+
+    <div class="col-md-9">
+        <div class="product-info">
+            <img src="~/img/1_max.jpg" />
+            <h3>Product A</h3>
+            <ul class="product-props">
+                <li>Price: $9.99</li>
+                <li>Vendor: EX Company</li>
+                <li>Title: </li>
+                <li>Descrition: Extra product</li>
+            </ul>
+            <button id="buyButton" class="btn btn-success">Buy</button>
+        </div>
+
+        <br />
+        <div id="theForm">
+            <form>
+                <label>Name:</label>
+                <br />
+                <input />
+                <br />
+                <label>Email:</label>
+                <br />
+                <input type="email" />
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input type="text" />
+                <br />
+                <label>Message:</label>
+                <br />
+                <textarea rows="4"></textarea>
+                <br />
+                <input type="submit" value="Send" />
+            </form>
+        </div>
+
+        <div>
+            <div id="loginToggle">Login</div>
+            <form class="popup-form">
+                <div>
+                    <label>Login</label>
+                    <input />
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" />
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Remeber me</label>
+                </div>
+                <div>
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+<div class="col-md-3">
+    col-md-3 Here!
+</div>
